@@ -1,0 +1,67 @@
+atalas-website/
+│
+├── index.html
+├── styles.css
+└── script.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atalas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Atalas</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Atalas</h2>
+        <p>Welcome to Atalas, your go-to destination for all things athletic.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Atalas. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #1e90ff;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+// You can add your JavaScript here for any interactive features
+console.log("Welcome to Atalas!");
